@@ -7,45 +7,50 @@ import WorkIcon from "@material-ui/icons/Work";
 
 export default function Experience() {
   const items = [
+
     {
-      date: "September 2022 - Present",
-      cardTitle: "Microsoft",
-      cardSubtitle: "Software Engineer",
-      // cardDetailedText: [
-      //   "Developing new security detections and platform empowering service teams.",
-      // ].map(function (text) {
-      //   return <li>{text}</li>;
-      // }),
-    },
-    {
-      date: "November 2020 – February 2021",
-      cardTitle: "Mobisy Technologies",
-      cardSubtitle: "Research & Development Intern",
+      date: "June 2022 - Present ",
+      cardTitle: "Enactus S.P.I.T.",
+      cardSubtitle: "Vice-President",
       cardDetailedText: [
-        "Collected JSON data by web-scraping, using open API end points and storing it in a RDBMS.",
-        "Responsible for building SKU Classification system using the collected data.",
+        "Organized national-level competitions & community drives.",
+        "Secured INR 50,000 business grant from KPMG.",
+        "Launched 'Project Prithvi' to promote entrepreneurship, support Start-Up Entrepreneur's & Small Manufacturing Enterprises (SME).",
+        "Collaborated with NGOs on 'Project Unnati' for empowering underprivileged childrens."
       ].map(function (text) {
         return <li>{text}</li>;
       }),
     },
     {
-      date: "September 2019 – October 2019",
-      cardTitle: "Techskills IT Consultants",
-      cardSubtitle: "Backend Developer",
+      date: "January 2023 - February 2023",
+      cardTitle: "PredictRAM",
+      cardSubtitle: "Finance Analyst Intern",
       cardDetailedText: [
-        "Developed applications using Spring Framework for Backend Restful API’s.",
-        "Wrote SQL/JPQL queries for Data persistence using Spring Data JPA.",
+        "Analyzed broad array of finance/economic statistics to identify trends & patterns.",
+        "Interpreted, extrapolated & tracked diversified data.",
+        "Amalgamated information, events happening around the world & prepared consolidated Reports.",
       ].map(function (text) {
         return <li>{text}</li>;
       }),
-    },
-    {
-      date: "August 2018 – January 2019",
-      cardTitle: "TechSkills IT Consultants",
-      cardSubtitle: "Fullstack Developer Intern",
-      cardDetailedText:
-        "Developed a Meeting App website which handles all the data that happens in a meeting. In this project I developed several REST API's using Spring Boot and used the MVC architecture. These API's are being consumed in the frontend.",
-    },
+    }
+    // {
+    //   date: "September 2019 – October 2019",
+    //   cardTitle: "Techskills IT Consultants",
+    //   cardSubtitle: "Backend Developer",
+    //   cardDetailedText: [
+    //     "Developed applications using Spring Framework for Backend Restful API’s.",
+    //     "Wrote SQL/JPQL queries for Data persistence using Spring Data JPA.",
+    //   ].map(function (text) {
+    //     return <li>{text}</li>;
+    //   }),
+    // },
+    // {
+    //   date: "August 2018 – January 2019",
+    //   cardTitle: "TechSkills IT Consultants",
+    //   cardSubtitle: "Fullstack Developer Intern",
+    //   cardDetailedText:
+    //     "Developed a Meeting App website which handles all the data that happens in a meeting. In this project I developed several REST API's using Spring Boot and used the MVC architecture. These API's are being consumed in the frontend.",
+    // },
   ];
 
   return (

@@ -1,4 +1,4 @@
-import img from "./images/2.jpg";
+import img from "./images/Suyog_Photo_1.jpg";
 import Typed from "react-typed";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -12,16 +12,16 @@ export default function Hero() {
       <Container data-aos="zoom-in" data-aos-delay="500">
         <Row>
           <Col lg={6} className="item-center">
-            <h1>Bhushan Borole</h1>
+            <h1>Suyog Shah</h1>
             <br />
             <p>
               I'm a&nbsp;
               <span
                 class="typed"
-                data-typed-items="Developer, Tabla Player, Gamer"
+                data-typed-items="Competitive Programmer, Developer, Data Science Enthusiast"
               >
                 <Typed
-                  strings={["Developer", "Tabla Player", "Gamer"]}
+                  strings={["Competitive Programmer", "Developer", "Data Science Enthusiast"]}
                   loop
                   typeSpeed={90}
                   backSpeed={60}
@@ -37,19 +37,19 @@ export default function Hero() {
               </span>
             </p>
             <div class="social-links">
-              <a href="https://www.youtube.com/channel/UC8TXgNmZW2hMis074yGOTUQ">
+              {/* <a target ="_blank" href="https://www.youtube.com/channel/UC8TXgNmZW2hMis074yGOTUQ">
                 <i class="bx bxl-youtube"></i>
-              </a>
-              <a href="https://www.instagram.com/bhushan_borole_/">
+              </a> */}
+              <a target ="_blank" href="https://www.instagram.com/suyogshah701/">
                 <i class="bx bxl-instagram"></i>
               </a>
-              <a href="https://github.com/bhushan-borole">
+              <a target ="_blank" href="https://github.com/Suyog-007">
                 <i class="bx bxl-github"></i>
               </a>
-              <a href="https://www.linkedin.com/in/bhushan-borole/">
+              <a target ="_blank" href="https://www.linkedin.com/in/suyog-shah-JB007/">
                 <i class="bx bxl-linkedin"></i>
               </a>
-              <a href="mailto:borolebhushan8@gmail.com">
+              <a target ="_blank" href="mailto:suyogshahb701@gmal.com">
                 <i class="bx bx-envelope"></i>
               </a>
             </div>
@@ -57,7 +57,7 @@ export default function Hero() {
             <Button
               variant="outlined"
               target="_blank"
-              href="https://drive.google.com/file/d/1XVfSZNcC6P9QlmEgA3s1Ebi23kydQGYj/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ZnhOc6qPGH0VW1EdFbtgx4u3JsOl4hig/view"
               startIcon={<CloudDownloadIcon />}
               style={{
                 color: "rgb(116, 128, 138)",
@@ -78,10 +78,11 @@ export default function Hero() {
           >
             <img
               src={img}
-              height="100%"
-              width="65%"
+              height="110%"
+              width="140%"
               style={{
-                borderRadius: "30px",
+                borderRadius: "90px",
+                padding:"70px"
               }}
             />
           </Col>

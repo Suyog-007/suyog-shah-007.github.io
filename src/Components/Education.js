@@ -9,28 +9,42 @@ import StarIcon from "@material-ui/icons/Star";
 const Education = () => {
   const items = [
     {
-      cardTitle: "Trinity College Dublin",
-      cardSubtitle: "MSc - Intelligent Systems",
+      cardTitle: "Bharatiya Vidya Bhavan's Sardar Patel Institute of Technology (S.P.I.T.), Mumbai",
+      cardSubtitle: "Bachelor of Technology in Computer Engineering",
       coursesHead: "Courses: ",
       cardDetailedText: [
-        "Machine Learning",
-        "Information Retrieval and Web Search",
-        "Data Analytics",
-        "Knowledge and Data Engineering",
-        "Advanced Software Engineering",
+        "Blockchain",
+        "Data Structures & Algorithms",
         "Artificial Intelligence",
-        "Text Analytics",
+        "Machine Learning",
+        "Operating Systems",
+        "Advanced Database Management Systems",
+        "Computer Communication Networks",
+        "Distributing Computing",
+        "Advanced Mathematics"
       ].map(function (course) {
         return <li>{course}</li>;
       }),
-      date: "2021 - 2022",
+      date: "March 2021 - Present (Completing in July 2024)",
     },
     {
-      cardTitle: "St. Francis Institute Of Technology",
-      cardSubtitle: "BE in Computer Engineering",
-      cardDetailedText: "CGPA: 8.72 (First class with Distinction)",
-      date: "2016 - 2020",
+      cardTitle: "Indian Institute Of Technology, Madras",
+      cardSubtitle: "Bachelor of Science in Data Science Course",
+      // cardDetailedText: "CGPA: 8.72 (First class with Distinction)",
+      date: "August 2022 - Present",
     },
+    {
+      cardTitle: "Chandrabhan Sharma College of Arts, Science and Commerce , Mumbai",
+      cardSubtitle: "HSC 12th in Science",
+      cardDetailedText: "Percentage: 85.23%",
+      date: "2018 - 2020",
+    },
+    {
+      cardTitle: "Bal Bharati Public School, Navi Mumbai",
+      cardSubtitle: "CBSE 10th",
+      cardDetailedText: "Percentage: 94.2%",
+      date: "2008 - 2018",
+    }
   ];
 
   return (

@@ -1,16 +1,16 @@
 const Skills = () => {
 
   const skills = [
-    "JavaScript", "Python", "Flask", "React", "Java",
-    "SpringBoot", "JPA", "Hibernate", "Machine Learning",
-    "MySQL", "Oracle DB"
+    "C","C++","Java","Python","HTML","CSS","JavaScript","Solidity",
+    "MySQL","MongoDB","PostgreSQL","Neo4j",
+    "AWS","FireBase","NodeJS","Python ML Libraries","Shell Script"
   ]
   return (
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Skills</h2>
+          <h2>  Skills</h2>
         </div>
         <div>
           <ul>
